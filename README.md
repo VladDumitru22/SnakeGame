@@ -8,22 +8,23 @@ This is a simple Snake game built with Python, designed to demonstrate fundament
 - Game ends on collision with the wall or itself
 - Basic scoring system
 - Clean object-oriented code structure
+- Persistent high score saved in a text file
 
 ## Structure
 The program is organized into several classes:
 - Snake: handles the movement and growth of the snake
 - Food: generates food at random locations
-- Scoreboard: Displays the current score and updates it.
+- Scoreboard: Displays the current score and updates the high score in a file
 
 ## OOP concepts
 - Encapsulation: Each class encapsulates its own data and logic.
 - Inheritance: classes inheriting from Turtle
-- Abstraction: Hides internal details; exposes only necessary methods.
+- Abstraction: Internal logic is hidden; interaction is done through clear method interfaces
 
 ## How to Run
 1. Clone the repository:
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/VladDumitru22/SnakeGame.git
    ```
 2. Navigate to the project directory:
    ```bash
